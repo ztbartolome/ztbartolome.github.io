@@ -4,62 +4,6 @@
 	font-family:"Times New Roman";
 }
 
-#header{
-	padding:75px;
-	background-color:gray;
-	text-align:center;
-	margin:auto;
-	font-size:36px;
-}
-
-#header a{	
-	text-decoration:none;
-	color:black;
-}
-
-/* for the horizontal navigation bar */
-
-#navbar{
-	background-color:maroon;
-	top:0;
-	position: sticky;
-}
-
-#navbar a{
-		padding: 20px 30px 20px 30px;
-		display: inline-block;
-		text-decoration: none;
-		font-size: 18px;
-		color: white;
-}
-
-#navbar li:hover{
-		background-color:brown;
-}
-
-#navbar li{
-		display: inline-block;
-}
-
-/* for dropdown list in navigation bar*/
-#navbar li li{
-		display: none;
-}
-
-#navbar ul{
-		position: absolute;
-}
-
-#navbar li:hover li{
-	display: block;
-	background-color:brown;
-}
-
-#navbar li li:hover{
-		background-color: black;
-}
-
-/* For page content below the navigation bar */
 #content > h1,p{
 		margin:20px;
 }
