@@ -8,16 +8,16 @@
     $(function(){
       $("#header").load("header.html",
 		function(){
-			$('body').show();
+			$("#content").show();
 		}); 
     });
     </script> 
   </head>
 
-  <body style="display:none">
+  <body>
     <div id="header"></div>
 	
-	<div id="content">
+	<div id="content" style="display:none">
 		<h1>About Me</h1>
 		<div class="imageContainer">
 			<img src="images/picOfMe.jpg">

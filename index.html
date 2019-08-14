@@ -8,19 +8,19 @@
     $(function(){
       $("#header").load("header.html",
 		function(){
-			$('body').show();
+			$("#content").show();
 		}); 
     });
     </script> 
   </head>
 
-  <body style="display:none">
+  <body>
     <div id="header"></div>
-
-	<h1>Welcome</h1>
-	<p>This is my portfolio website where I will put my coding projects.
-		I designed and coded the HTML and CSS for this website myself.</p>
-	<p>-Zeline Bartolome</p>
-
+	<div id="content" style="display:none">
+		<h1>Welcome</h1>
+		<p>This is my portfolio website where I will put my coding projects.
+			I designed and coded the HTML and CSS for this website myself.</p>
+		<p>-Zeline Bartolome</p>
+	</div>
   </body>
 </html>
