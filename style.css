@@ -4,12 +4,17 @@
 	font-family:"Times New Roman";
 }
 
-#pageTitle{
+#header{
 	padding:75px;
 	background-color:gray;
 	text-align:center;
 	margin:auto;
 	font-size:36px;
+}
+
+#header a{	
+	text-decoration:none;
+	color:black;
 }
 
 /* for the horizontal navigation bar */
@@ -21,14 +26,14 @@
 }
 
 #navbar a{
-		padding: 20px 40px 20px 40px;
+		padding: 20px 30px 20px 30px;
 		display: inline-block;
 		text-decoration: none;
 		font-size: 18px;
 		color: white;
 }
 
-#navbar a:hover{
+#navbar li:hover{
 		background-color:brown;
 }
 
@@ -36,7 +41,44 @@
 		display: inline-block;
 }
 
+/* for dropdown list in navigation bar*/
+#navbar li li{
+		display: none;
+}
+
+#navbar ul{
+		position: absolute;
+}
+
+#navbar li:hover li{
+	display: block;
+	background-color:brown;
+}
+
+#navbar li li:hover{
+		background-color: black;
+}
+
 /* For page content below the navigation bar */
-#content > *{
+#content > h1,p{
 		margin:20px;
+}
+
+#content p{
+	font-size:18px;
+}
+
+.imageContainer{
+		background-color:#d9d9d9;
+		padding:20px;
+		overflow:auto;
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+		border-radius:15px;
+}
+
+.imageContainer img{
+		width: 100%;
+		border-radius:inherit;
 }
