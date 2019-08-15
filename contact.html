@@ -5,8 +5,8 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="jquery-3.4.1.js"></script> 
     <script>
-    $(function(){
-      $("#header").load("header.html",
+    $("#header").load("header.html");
+      $("#nav").load("navbar.html",
 		function(){
 			$("#content").show();
 		}); 
@@ -16,7 +16,7 @@
 
   <body>
     <div id="header"></div>
-	
+	<div id="nav"></div>
 	<div id="content">
 		<h1>Contact</h1>
 		<p>Please feel free to contact me at this email: 
