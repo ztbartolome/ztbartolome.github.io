@@ -50,10 +50,6 @@ p{
 
 /* for the horizontal navigation bar */
 
-#nav{
-		top:0;
-		position:sticky;
-}
 
 #navbar{
 	background-color:maroon;
