@@ -5,7 +5,8 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="jquery-3.4.1.js"></script> 
     <script>
-    $("#header").load("header.html");
+    $(function(){
+      $("#header").load("header.html");
       $("#nav").load("navbar.html",
 		function(){
 			$("#content").show();
